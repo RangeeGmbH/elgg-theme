@@ -1,11 +1,5 @@
 <?php
 
-namespace hypeJunction\UI;
-
-use ElggGroup;
-use ElggMenuItem;
-use ElggUser;
-
 class Menus {
 
 	/**
@@ -212,7 +206,7 @@ class Menus {
 
 		usort($registered, [\ElggMenuBuilder::class, 'compareByPriority']);
 
-		$max_display_items = elgg_get_plugin_setting('site_menu_count', 'hypeUI', 5);
+		$max_display_items = elgg_get_plugin_setting('site_menu_count', 'rangee_theme', 5);
 
 		$num_menu_items = count($registered);
 

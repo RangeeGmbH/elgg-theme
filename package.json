@@ -1,12 +1,12 @@
 {
-	"name": "hypeUI",
+	"name": "rangee_theme",
 	"version": "1.7.0",
 	"license": "GPL-2.0",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:hypeJunction/hypeUI.git",
-		"owner": "hypeJunction",
-		"repo": "hypeUI"
+		"url": "git@github.com/RangeeGmbH/elgg-theme.git",
+		"owner": "RangeeGmbH",
+		"repo": "elgg-theme"
 	},
 	"devDependencies": {
 		"bulma": "^0.4.2",

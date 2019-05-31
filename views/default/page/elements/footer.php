@@ -13,7 +13,7 @@ if ($footer === false) {
         <div class="columns is-centered">
             <div class="column">
 				<?php
-				$info = elgg_get_plugin_setting('footer', 'hypeUI');
+				$info = elgg_get_plugin_setting('footer', 'rangee_theme');
 				if ($info) {
 					$info = elgg_view('output/longtext', [
 						'class' => 'content',

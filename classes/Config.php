@@ -6,9 +6,6 @@
  * Time: 10:33
  */
 
-namespace hypeJunction\UI;
-
-
 class Config {
 
 }

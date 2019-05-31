@@ -1,8 +1,5 @@
 <?php
 
-namespace hypeJunction\UI;
-
-
 class Lightbox {
 
 	/**

@@ -1,7 +1,7 @@
 <?php
 $module = elgg_extract('hero_module', $vars);
 if (!$module) {
-	$module = elgg_get_plugin_setting('landing:module', 'hypeUI');
+	$module = elgg_get_plugin_setting('landing:module', 'rangee_theme');
 	if ($module) {
 		$module = elgg_view('output/longtext', [
 			'value' => $module,
@@ -15,10 +15,10 @@ if (!$module) {
 	}
 }
 
-$style = elgg_get_plugin_setting('style:landing_hero', 'hypeUI', 'primary');
+$style = elgg_get_plugin_setting('style:landing_hero', 'rangee_theme', 'primary');
 
 $cover_url = false;
-$cover_image_view = elgg_get_plugin_setting('asset:landing_hero', 'hypeUI');
+$cover_image_view = elgg_get_plugin_setting('asset:landing_hero', 'rangee_theme');
 
 if ($cover_image_view && elgg_view_exists($cover_image_view)) {
 	$cover_url = elgg_get_simplecache_url($cover_image_view);
@@ -36,7 +36,7 @@ if ($cover_url) {
 
 $site = elgg_get_site_entity();
 
-$title = elgg_get_plugin_setting('landing:title', 'hypeUI', $site->name);
+$title = elgg_get_plugin_setting('landing:title', 'rangee_theme', $site->name);
 if ($title) {
 	$title = elgg_view('output/longtext', [
 		'class' => 'title',
@@ -44,7 +44,7 @@ if ($title) {
 	]);
 }
 
-$subtitle = elgg_get_plugin_setting('landing:subtitle', 'hypeUI');
+$subtitle = elgg_get_plugin_setting('landing:subtitle', 'rangee_theme');
 if ($subtitle) {
 	$subtitle = elgg_view('output/longtext', [
 		'class' => 'subtitle',
@@ -52,7 +52,7 @@ if ($subtitle) {
 	]);
 }
 
-$info = elgg_get_plugin_setting('landing:info', 'hypeUI');
+$info = elgg_get_plugin_setting('landing:info', 'rangee_theme');
 if ($info) {
 	$info = elgg_view('output/longtext', [
 		'class' => 'content',

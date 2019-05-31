@@ -6,7 +6,7 @@ $names = [
 ];
 
 foreach ($names as $name) {
-	$view = elgg_get_plugin_setting("asset:$name", 'hypeUI');
+	$view = elgg_get_plugin_setting("asset:$name", 'rangee_theme');
 	echo elgg_view_field([
 		'#type' => 'file',
 		'#label' => elgg_echo("admin:theme:asset:$name"),

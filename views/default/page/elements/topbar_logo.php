@@ -11,7 +11,7 @@ if (elgg_in_context('admin')) {
 } else {
 	$text = $site->name;
 
-	$view = elgg_get_plugin_setting('asset:topbar_logo', 'hypeUI');
+	$view = elgg_get_plugin_setting('asset:topbar_logo', 'rangee_theme');
 	if ($view && elgg_view_exists($view)) {
 		$text = elgg_view('output/img', [
 			'src' => elgg_get_simplecache_url($view),
@@ -20,6 +20,11 @@ if (elgg_in_context('admin')) {
 	} else if (elgg_view_exists('theme/topbar_logo.svg')) {
 		$text = elgg_view('output/img', [
 			'src' => elgg_get_simplecache_url('theme/topbar_logo.svg'),
+			'alt' => $site->name,
+		]);
+	} else if (elgg_view_exists('theme/topbar_logo.png')) {
+		$text = elgg_view('output/img', [
+			'src' => elgg_get_simplecache_url('theme/topbar_logo.png'),
 			'alt' => $site->name,
 		]);
 	}

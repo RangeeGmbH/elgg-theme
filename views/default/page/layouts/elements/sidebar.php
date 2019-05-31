@@ -11,7 +11,7 @@ if (!$sidebar) {
 	return;
 }
 
-$width = elgg_get_plugin_setting('sidebar_width', 'hypeUI', 3);
+$width = elgg_get_plugin_setting('sidebar_width', 'rangee_theme', 3);
 ?>
 <div class="elgg-layout-sidebar elgg-sidebar column is-<?= $width ?>">
 	<div class="elgg-inner">

@@ -10,9 +10,6 @@
  */
 require_once __DIR__ . '/autoloader.php';
 
-use hypeJunction\UI\Lightbox;
-use hypeJunction\UI\Menus;
-
 elgg_register_event_handler('init', 'system', function () {
 
 	elgg_register_css('fonts.opensans', 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700');

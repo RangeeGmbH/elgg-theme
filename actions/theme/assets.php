@@ -19,17 +19,17 @@ foreach ($assets as $name => $asset) {
 		continue;
 	}
 
-	$view = elgg_get_plugin_setting("asset:$name", 'hypeUI');
+	$view = elgg_get_plugin_setting("asset:$name", 'rangee_theme');
 	if ($view && is_file("$dir$view")) {
 		unlink("$dir$view");
-		elgg_unset_plugin_setting("asset:$name", 'hypeUI');
+		elgg_unset_plugin_setting("asset:$name", 'rangee_theme');
 	}
 
 	$ext = $asset->getClientOriginalExtension();
 	$filename = "$name.$ext";
 
 	if ($asset->move($dir . 'theme', $filename)) {
-		elgg_set_plugin_setting("asset:$name", "theme/$filename", 'hypeUI');
+		elgg_set_plugin_setting("asset:$name", "theme/$filename", 'rangee_theme');
 		$success++;
 	} else {
 		$error++;

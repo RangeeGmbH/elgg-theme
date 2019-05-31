@@ -24,6 +24,7 @@ echo elgg_view('elements/misc.css', $vars);
 echo elgg_view('elements/misc/spinner.css', $vars);
 echo elgg_view('elements/fa.css', $vars);
 echo elgg_view('elements/helpers.css', $vars);
+echo elgg_view('elements/rangee.css', $vars);
 
 ?>
 /* <style> /**/

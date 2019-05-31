@@ -15,7 +15,7 @@ $params['show_section_headers'] = true;
 
 $entity = elgg_extract('entity', $vars);
 
-$info = elgg_get_plugin_setting('sidebar:before', 'hypeUI');
+$info = elgg_get_plugin_setting('sidebar:before', 'rangee_theme');
 if ($info) {
 	$info = elgg_view('output/longtext', [
 		'class' => 'content',
@@ -106,7 +106,7 @@ if ($extras_menu) {
 	], $extras_menu);
 }
 
-$info = elgg_get_plugin_setting('sidebar:after', 'hypeUI');
+$info = elgg_get_plugin_setting('sidebar:after', 'rangee_theme');
 if ($info) {
 	$info = elgg_view('output/longtext', [
 		'class' => 'content',

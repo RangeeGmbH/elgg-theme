@@ -1,0 +1,20 @@
+.elgg-image + .media-content .elgg-image {
+    display: none;
+}
+
+.inbox-message-icon + .inbox-message-content .elgg-image {
+    display: none;
+}
+
+a.elgg-anchor.elgg-button.elgg-button-delete.float-alt {
+    z-index: 1;
+}
+
+div.elgg-head > h3 span.elgg-anchor-label {
+    color: #000000;
+}
+
+div.elgg-head > h3 span.elgg-anchor-label:hover,
+div.elgg-head > h3 span.elgg-anchor-label:focus {
+    color: #ffffff;
+}

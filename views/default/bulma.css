@@ -136,7 +136,7 @@ body {
 }
 
 a {
-  color: #0398e2;
+  color: #f2be18;
   cursor: pointer;
   text-decoration: none;
   transition: none 86ms ease-out;
@@ -759,7 +759,7 @@ a.has-text-dark:hover, a.has-text-dark:focus {
 }
 
 .has-text-primary {
-  color: #0398e2;
+  color: #f2be18;
 }
 
 a.has-text-primary:hover, a.has-text-primary:focus {
@@ -767,7 +767,7 @@ a.has-text-primary:hover, a.has-text-primary:focus {
 }
 
 .has-text-info {
-  color: #02a6f2;
+  color: #d9ab15;
 }
 
 a.has-text-info:hover, a.has-text-info:focus {
@@ -878,12 +878,12 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 a.box:hover, .elgg-list:not(.is-borderless) > a.elgg-item:hover, a.elgg-module-popup:hover, a.elgg-menu-hover:hover,
 a.elgg-object-menu-popup:hover, a.elgg-module-dropdown:hover, a.elgg-module-widget:hover, a.ui-datepicker:hover, a.thewire-form:hover, a.box:focus, .elgg-list:not(.is-borderless) > a.elgg-item:focus, a.elgg-module-popup:focus, a.elgg-menu-hover:focus,
 a.elgg-object-menu-popup:focus, a.elgg-module-dropdown:focus, a.elgg-module-widget:focus, a.ui-datepicker:focus, a.thewire-form:focus {
-  box-shadow: 0 2px 3px rgba(33, 33, 33, 0.1), 0 0 0 1px #0398e2;
+  box-shadow: 0 2px 3px rgba(33, 33, 33, 0.1), 0 0 0 1px #f2be18;
 }
 
 a.box:active, .elgg-list:not(.is-borderless) > a.elgg-item:active, a.elgg-module-popup:active, a.elgg-menu-hover:active,
 a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-widget:active, a.ui-datepicker:active, a.thewire-form:active {
-  box-shadow: inset 0 1px 2px rgba(33, 33, 33, 0.2), 0 0 0 1px #0398e2;
+  box-shadow: inset 0 1px 2px rgba(33, 33, 33, 0.2), 0 0 0 1px #f2be18;
 }
 
 .button, .elgg-button {
@@ -958,7 +958,7 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
 }
 
 .button:focus, .elgg-button:focus, .button.is-focused, .is-focused.elgg-button {
-  border-color: #0398e2;
+  border-color: #f2be18;
   box-shadow: 0 0 0.5em rgba(3, 152, 226, 0.25);
   color: #363636;
 }
@@ -1356,13 +1356,13 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
 }
 
 .button.is-primary, .is-primary.elgg-button, .elgg-button.elgg-button-action, .elgg-button.elgg-button-submit, .button.elgg-button-action, .button.elgg-button-submit {
-  background-color: #0398e2;
+  background-color: #f2be18;
   border-color: transparent;
   color: #fff;
 }
 
 .button.is-primary:hover, .is-primary.elgg-button:hover, .elgg-button.elgg-button-action:hover, .elgg-button.elgg-button-submit:hover, .button.elgg-button-action:hover, .button.elgg-button-submit:hover, .button.is-primary.is-hovered, .is-primary.is-hovered.elgg-button, .is-hovered.elgg-button.elgg-button-action, .is-hovered.elgg-button.elgg-button-submit, .button.is-hovered.elgg-button-action, .button.is-hovered.elgg-button-submit {
-  background-color: #038fd5;
+  background-color: #d9ab15;
   border-color: transparent;
   color: #fff;
 }
@@ -1381,14 +1381,14 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
 }
 
 .button.is-primary[disabled], .is-primary.elgg-button[disabled], .elgg-button.elgg-button-action[disabled], .elgg-button.elgg-button-action.elgg-state-disabled, .elgg-button.elgg-button-submit[disabled], .elgg-button.elgg-button-submit.elgg-state-disabled, .is-primary.elgg-button.elgg-state-disabled, .button.elgg-button-action[disabled], .button.elgg-button-action.elgg-state-disabled, .button.elgg-button-submit[disabled], .button.elgg-button-submit.elgg-state-disabled, .button.is-primary.elgg-state-disabled {
-  background-color: #0398e2;
+  background-color: #f2be18;
   border-color: transparent;
   box-shadow: none;
 }
 
 .button.is-primary.is-inverted, .is-primary.is-inverted.elgg-button, .is-inverted.elgg-button.elgg-button-action, .is-inverted.elgg-button.elgg-button-submit, .button.is-inverted.elgg-button-action, .button.is-inverted.elgg-button-submit {
   background-color: #fff;
-  color: #0398e2;
+  color: #f2be18;
 }
 
 .button.is-primary.is-inverted:hover, .is-primary.is-inverted.elgg-button:hover, .is-inverted.elgg-button.elgg-button-action:hover, .is-inverted.elgg-button.elgg-button-submit:hover, .button.is-inverted.elgg-button-action:hover, .button.is-inverted.elgg-button-submit:hover {
@@ -1399,7 +1399,7 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
   background-color: #fff;
   border-color: transparent;
   box-shadow: none;
-  color: #0398e2;
+  color: #f2be18;
 }
 
 .button.is-primary.is-loading:after, .is-primary.is-loading.elgg-button:after, .is-loading.elgg-button.elgg-button-action:after, .is-loading.elgg-button.elgg-button-submit:after, .button.is-loading.elgg-button-action:after, .button.is-loading.elgg-button-submit:after {
@@ -1408,25 +1408,25 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
 
 .button.is-primary.is-outlined, .is-primary.is-outlined.elgg-button, .is-outlined.elgg-button.elgg-button-action, .is-outlined.elgg-button.elgg-button-submit, .button.is-outlined.elgg-button-action, .button.is-outlined.elgg-button-submit {
   background-color: transparent;
-  border-color: #0398e2;
-  color: #0398e2;
+  border-color: #f2be18;
+  color: #f2be18;
 }
 
 .button.is-primary.is-outlined:hover, .is-primary.is-outlined.elgg-button:hover, .is-outlined.elgg-button.elgg-button-action:hover, .is-outlined.elgg-button.elgg-button-submit:hover, .button.is-outlined.elgg-button-action:hover, .button.is-outlined.elgg-button-submit:hover, .button.is-primary.is-outlined:focus, .is-primary.is-outlined.elgg-button:focus, .is-outlined.elgg-button.elgg-button-action:focus, .is-outlined.elgg-button.elgg-button-submit:focus, .button.is-outlined.elgg-button-action:focus, .button.is-outlined.elgg-button-submit:focus {
-  background-color: #0398e2;
-  border-color: #0398e2;
+  background-color: #f2be18;
+  border-color: #f2be18;
   color: #fff;
 }
 
 .button.is-primary.is-outlined.is-loading:after, .is-primary.is-outlined.is-loading.elgg-button:after, .is-outlined.is-loading.elgg-button.elgg-button-action:after, .is-outlined.is-loading.elgg-button.elgg-button-submit:after, .button.is-outlined.is-loading.elgg-button-action:after, .button.is-outlined.is-loading.elgg-button-submit:after {
-  border-color: transparent transparent #0398e2 #0398e2 !important;
+  border-color: transparent transparent #f2be18 #f2be18 !important;
 }
 
 .button.is-primary.is-outlined[disabled], .is-primary.is-outlined.elgg-button[disabled], .is-outlined.elgg-button.elgg-button-action[disabled], .is-outlined.elgg-button.elgg-button-action.elgg-state-disabled, .is-outlined.elgg-button.elgg-button-submit[disabled], .is-outlined.elgg-button.elgg-button-submit.elgg-state-disabled, .is-primary.is-outlined.elgg-button.elgg-state-disabled, .button.is-outlined.elgg-button-action[disabled], .button.is-outlined.elgg-button-action.elgg-state-disabled, .button.is-outlined.elgg-button-submit[disabled], .button.is-outlined.elgg-button-submit.elgg-state-disabled, .button.is-primary.is-outlined.elgg-state-disabled {
   background-color: transparent;
-  border-color: #0398e2;
+  border-color: #f2be18;
   box-shadow: none;
-  color: #0398e2;
+  color: #f2be18;
 }
 
 .button.is-primary.is-inverted.is-outlined, .is-primary.is-inverted.is-outlined.elgg-button, .is-inverted.is-outlined.elgg-button.elgg-button-action, .is-inverted.is-outlined.elgg-button.elgg-button-submit, .button.is-inverted.is-outlined.elgg-button-action, .button.is-inverted.is-outlined.elgg-button-submit {
@@ -1437,7 +1437,7 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
 
 .button.is-primary.is-inverted.is-outlined:hover, .is-primary.is-inverted.is-outlined.elgg-button:hover, .is-inverted.is-outlined.elgg-button.elgg-button-action:hover, .is-inverted.is-outlined.elgg-button.elgg-button-submit:hover, .button.is-inverted.is-outlined.elgg-button-action:hover, .button.is-inverted.is-outlined.elgg-button-submit:hover, .button.is-primary.is-inverted.is-outlined:focus, .is-primary.is-inverted.is-outlined.elgg-button:focus, .is-inverted.is-outlined.elgg-button.elgg-button-action:focus, .is-inverted.is-outlined.elgg-button.elgg-button-submit:focus, .button.is-inverted.is-outlined.elgg-button-action:focus, .button.is-inverted.is-outlined.elgg-button-submit:focus {
   background-color: #fff;
-  color: #0398e2;
+  color: #f2be18;
 }
 
 .button.is-primary.is-inverted.is-outlined[disabled], .is-primary.is-inverted.is-outlined.elgg-button[disabled], .is-inverted.is-outlined.elgg-button.elgg-button-action[disabled], .is-inverted.is-outlined.elgg-button.elgg-button-action.elgg-state-disabled, .is-inverted.is-outlined.elgg-button.elgg-button-submit[disabled], .is-inverted.is-outlined.elgg-button.elgg-button-submit.elgg-state-disabled, .is-primary.is-inverted.is-outlined.elgg-button.elgg-state-disabled, .button.is-inverted.is-outlined.elgg-button-action[disabled], .button.is-inverted.is-outlined.elgg-button-action.elgg-state-disabled, .button.is-inverted.is-outlined.elgg-button-submit[disabled], .button.is-inverted.is-outlined.elgg-button-submit.elgg-state-disabled, .button.is-primary.is-inverted.is-outlined.elgg-state-disabled {
@@ -1448,13 +1448,13 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
 }
 
 .button.is-info, .is-info.elgg-button, .elgg-button.elgg-button-special, .elgg-button.elgg-state-notice, .button.elgg-button-special, .button.elgg-state-notice {
-  background-color: #02a6f2;
+  background-color: #d9ab15;
   border-color: transparent;
   color: #fff;
 }
 
 .button.is-info:hover, .is-info.elgg-button:hover, .elgg-button.elgg-button-special:hover, .elgg-button.elgg-state-notice:hover, .button.elgg-button-special:hover, .button.elgg-state-notice:hover, .button.is-info.is-hovered, .is-info.is-hovered.elgg-button, .is-hovered.elgg-button.elgg-button-special, .is-hovered.elgg-button.elgg-state-notice, .button.is-hovered.elgg-button-special, .button.is-hovered.elgg-state-notice {
-  background-color: #029ee6;
+  background-color: #d9ab15;
   border-color: transparent;
   color: #fff;
 }
@@ -1466,21 +1466,21 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
 }
 
 .button.is-info:active, .is-info.elgg-button:active, .elgg-button.elgg-button-special:active, .elgg-button.elgg-state-notice:active, .button.elgg-button-special:active, .button.elgg-state-notice:active, .button.is-info.is-active, .is-info.is-active.elgg-button, .is-active.elgg-button.elgg-button-special, .elgg-tabs .elgg-button.elgg-button-special.elgg-state-selected, .elgg-tabs .is-info.elgg-button.elgg-state-selected, .elgg-tabs .elgg-button.elgg-state-selected.elgg-state-notice, .is-active.elgg-button.elgg-state-notice, .button.is-active.elgg-button-special, .elgg-tabs .button.elgg-button-special.elgg-state-selected, .elgg-tabs .button.is-info.elgg-state-selected, .elgg-tabs .button.elgg-state-selected.elgg-state-notice, .button.is-active.elgg-state-notice {
-  background-color: #0295d9;
+  background-color: #d9ab15;
   border-color: transparent;
   box-shadow: inset 0 1px 2px rgba(33, 33, 33, 0.2);
   color: #fff;
 }
 
 .button.is-info[disabled], .is-info.elgg-button[disabled], .elgg-button.elgg-button-special[disabled], .elgg-button.elgg-button-special.elgg-state-disabled, .is-info.elgg-button.elgg-state-disabled, .elgg-button.elgg-state-disabled.elgg-state-notice, .elgg-button.elgg-state-notice[disabled], .button.elgg-button-special[disabled], .button.elgg-button-special.elgg-state-disabled, .button.is-info.elgg-state-disabled, .button.elgg-state-disabled.elgg-state-notice, .button.elgg-state-notice[disabled] {
-  background-color: #02a6f2;
+  background-color: #d9ab15;
   border-color: transparent;
   box-shadow: none;
 }
 
 .button.is-info.is-inverted, .is-info.is-inverted.elgg-button, .is-inverted.elgg-button.elgg-button-special, .is-inverted.elgg-button.elgg-state-notice, .button.is-inverted.elgg-button-special, .button.is-inverted.elgg-state-notice {
   background-color: #fff;
-  color: #02a6f2;
+  color: #d9ab15;
 }
 
 .button.is-info.is-inverted:hover, .is-info.is-inverted.elgg-button:hover, .is-inverted.elgg-button.elgg-button-special:hover, .is-inverted.elgg-button.elgg-state-notice:hover, .button.is-inverted.elgg-button-special:hover, .button.is-inverted.elgg-state-notice:hover {
@@ -1491,7 +1491,7 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
   background-color: #fff;
   border-color: transparent;
   box-shadow: none;
-  color: #02a6f2;
+  color: #d9ab15;
 }
 
 .button.is-info.is-loading:after, .is-info.is-loading.elgg-button:after, .is-loading.elgg-button.elgg-button-special:after, .is-loading.elgg-button.elgg-state-notice:after, .button.is-loading.elgg-button-special:after, .button.is-loading.elgg-state-notice:after {
@@ -1500,25 +1500,25 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
 
 .button.is-info.is-outlined, .is-info.is-outlined.elgg-button, .is-outlined.elgg-button.elgg-button-special, .is-outlined.elgg-button.elgg-state-notice, .button.is-outlined.elgg-button-special, .button.is-outlined.elgg-state-notice {
   background-color: transparent;
-  border-color: #02a6f2;
-  color: #02a6f2;
+  border-color: #d9ab15;
+  color: #d9ab15;
 }
 
 .button.is-info.is-outlined:hover, .is-info.is-outlined.elgg-button:hover, .is-outlined.elgg-button.elgg-button-special:hover, .is-outlined.elgg-button.elgg-state-notice:hover, .button.is-outlined.elgg-button-special:hover, .button.is-outlined.elgg-state-notice:hover, .button.is-info.is-outlined:focus, .is-info.is-outlined.elgg-button:focus, .is-outlined.elgg-button.elgg-button-special:focus, .is-outlined.elgg-button.elgg-state-notice:focus, .button.is-outlined.elgg-button-special:focus, .button.is-outlined.elgg-state-notice:focus {
-  background-color: #02a6f2;
-  border-color: #02a6f2;
+  background-color: #d9ab15;
+  border-color: #d9ab15;
   color: #fff;
 }
 
 .button.is-info.is-outlined.is-loading:after, .is-info.is-outlined.is-loading.elgg-button:after, .is-outlined.is-loading.elgg-button.elgg-button-special:after, .is-outlined.is-loading.elgg-button.elgg-state-notice:after, .button.is-outlined.is-loading.elgg-button-special:after, .button.is-outlined.is-loading.elgg-state-notice:after {
-  border-color: transparent transparent #02a6f2 #02a6f2 !important;
+  border-color: transparent transparent #d9ab15 #d9ab15 !important;
 }
 
 .button.is-info.is-outlined[disabled], .is-info.is-outlined.elgg-button[disabled], .is-outlined.elgg-button.elgg-button-special[disabled], .is-outlined.elgg-button.elgg-button-special.elgg-state-disabled, .is-info.is-outlined.elgg-button.elgg-state-disabled, .is-outlined.elgg-button.elgg-state-disabled.elgg-state-notice, .is-outlined.elgg-button.elgg-state-notice[disabled], .button.is-outlined.elgg-button-special[disabled], .button.is-outlined.elgg-button-special.elgg-state-disabled, .button.is-info.is-outlined.elgg-state-disabled, .button.is-outlined.elgg-state-disabled.elgg-state-notice, .button.is-outlined.elgg-state-notice[disabled] {
   background-color: transparent;
-  border-color: #02a6f2;
+  border-color: #d9ab15;
   box-shadow: none;
-  color: #02a6f2;
+  color: #d9ab15;
 }
 
 .button.is-info.is-inverted.is-outlined, .is-info.is-inverted.is-outlined.elgg-button, .is-inverted.is-outlined.elgg-button.elgg-button-special, .is-inverted.is-outlined.elgg-button.elgg-state-notice, .button.is-inverted.is-outlined.elgg-button-special, .button.is-inverted.is-outlined.elgg-state-notice {
@@ -1529,7 +1529,7 @@ a.elgg-object-menu-popup:active, a.elgg-module-dropdown:active, a.elgg-module-wi
 
 .button.is-info.is-inverted.is-outlined:hover, .is-info.is-inverted.is-outlined.elgg-button:hover, .is-inverted.is-outlined.elgg-button.elgg-button-special:hover, .is-inverted.is-outlined.elgg-button.elgg-state-notice:hover, .button.is-inverted.is-outlined.elgg-button-special:hover, .button.is-inverted.is-outlined.elgg-state-notice:hover, .button.is-info.is-inverted.is-outlined:focus, .is-info.is-inverted.is-outlined.elgg-button:focus, .is-inverted.is-outlined.elgg-button.elgg-button-special:focus, .is-inverted.is-outlined.elgg-button.elgg-state-notice:focus, .button.is-inverted.is-outlined.elgg-button-special:focus, .button.is-inverted.is-outlined.elgg-state-notice:focus {
   background-color: #fff;
-  color: #02a6f2;
+  color: #d9ab15;
 }
 
 .button.is-info.is-inverted.is-outlined[disabled], .is-info.is-inverted.is-outlined.elgg-button[disabled], .is-inverted.is-outlined.elgg-button.elgg-button-special[disabled], .is-inverted.is-outlined.elgg-button.elgg-button-special.elgg-state-disabled, .is-info.is-inverted.is-outlined.elgg-button.elgg-state-disabled, .is-inverted.is-outlined.elgg-button.elgg-state-disabled.elgg-state-notice, .is-inverted.is-outlined.elgg-button.elgg-state-notice[disabled], .button.is-inverted.is-outlined.elgg-button-special[disabled], .button.is-inverted.is-outlined.elgg-button-special.elgg-state-disabled, .button.is-info.is-inverted.is-outlined.elgg-state-disabled, .button.is-inverted.is-outlined.elgg-state-disabled.elgg-state-notice, .button.is-inverted.is-outlined.elgg-state-notice[disabled] {
@@ -2317,7 +2317,7 @@ input.elgg-button[type="submit"] {
 .elgg-tabs .elgg-state-selected.elgg-input-longtext,
 .is-active.elgg-input-plaintext,
 .is-active.elgg-input-longtext {
-  border-color: #0398e2;
+  border-color: #f2be18;
 }
 
 .input[disabled], .input.elgg-state-disabled, .elgg-state-disabled.elgg-input-text,
@@ -2598,7 +2598,7 @@ input.elgg-button[type="submit"] {
 .elgg-button-submit.elgg-input-longtext,
 .is-primary.elgg-input-plaintext,
 .is-primary.elgg-input-longtext {
-  border-color: #0398e2;
+  border-color: #f2be18;
 }
 
 .input.is-info, .input.elgg-button-special, .elgg-button-special.elgg-input-text,
@@ -2641,7 +2641,7 @@ input.elgg-button[type="submit"] {
 .elgg-state-notice.elgg-input-longtext,
 .is-info.elgg-input-plaintext,
 .is-info.elgg-input-longtext {
-  border-color: #02a6f2;
+  border-color: #d9ab15;
 }
 
 .input.is-success, .input.elgg-state-success, .elgg-state-success.elgg-input-text,
@@ -2898,7 +2898,7 @@ input.elgg-button[type="submit"] {
 }
 
 .select:not(.is-multiple)::after {
-  border: 1px solid #0398e2;
+  border: 1px solid #f2be18;
   border-right: 0;
   border-top: 0;
   content: " ";
@@ -2955,7 +2955,7 @@ input.elgg-button[type="submit"] {
 }
 
 .select select:focus, .select select.is-focused, .select select:active, .select select.is-active, .select .elgg-tabs select.elgg-state-selected, .elgg-tabs .select select.elgg-state-selected {
-  border-color: #0398e2;
+  border-color: #f2be18;
 }
 
 .select select[disabled], .select select.elgg-state-disabled {
@@ -2986,7 +2986,7 @@ input.elgg-button[type="submit"] {
 }
 
 .select select:focus, .select select.is-focused, .select select:active, .select select.is-active, .select .elgg-tabs select.elgg-state-selected, .elgg-tabs .select select.elgg-state-selected {
-  border-color: #0398e2;
+  border-color: #f2be18;
 }
 
 .select select::-ms-expand {
@@ -3031,11 +3031,11 @@ input.elgg-button[type="submit"] {
 }
 
 .select.is-primary select, .select.elgg-button-action select, .select.elgg-button-submit select {
-  border-color: #0398e2;
+  border-color: #f2be18;
 }
 
 .select.is-info select, .select.elgg-button-special select, .select.elgg-state-notice select {
-  border-color: #02a6f2;
+  border-color: #d9ab15;
 }
 
 .select.is-success select, .select.elgg-state-success select {
@@ -3151,11 +3151,11 @@ input.elgg-button[type="submit"] {
 }
 
 .help.is-primary, .help.elgg-button-action, .elgg-button-action.elgg-text-help, .help.elgg-button-submit, .elgg-button-submit.elgg-text-help, .is-primary.elgg-text-help {
-  color: #0398e2;
+  color: #f2be18;
 }
 
 .help.is-info, .help.elgg-button-special, .elgg-button-special.elgg-text-help, .help.elgg-state-notice, .elgg-state-notice.elgg-text-help, .is-info.elgg-text-help {
-  color: #02a6f2;
+  color: #d9ab15;
 }
 
 .help.is-success, .help.elgg-state-success, .elgg-state-success.elgg-text-help, .is-success.elgg-text-help {
@@ -4334,12 +4334,12 @@ input.elgg-button[type="submit"] {
 }
 
 .notification.is-primary, .notification.elgg-button-action, .elgg-button-action.elgg-message, .notification.elgg-button-submit, .elgg-button-submit.elgg-message, .is-primary.elgg-message {
-  background-color: #0398e2;
+  background-color: #f2be18;
   color: #fff;
 }
 
 .notification.is-info, .notification.elgg-button-special, .elgg-button-special.elgg-message, .notification.elgg-state-notice, .elgg-state-notice.elgg-message, .is-info.elgg-message {
-  background-color: #02a6f2;
+  background-color: #d9ab15;
   color: #fff;
 }
 
@@ -4419,19 +4419,19 @@ input.elgg-button[type="submit"] {
 }
 
 .progress.is-primary::-webkit-progress-value, .progress.elgg-button-action::-webkit-progress-value, .progress.elgg-button-submit::-webkit-progress-value {
-  background-color: #0398e2;
+  background-color: #f2be18;
 }
 
 .progress.is-primary::-moz-progress-bar, .progress.elgg-button-action::-moz-progress-bar, .progress.elgg-button-submit::-moz-progress-bar {
-  background-color: #0398e2;
+  background-color: #f2be18;
 }
 
 .progress.is-info::-webkit-progress-value, .progress.elgg-button-special::-webkit-progress-value, .progress.elgg-state-notice::-webkit-progress-value {
-  background-color: #02a6f2;
+  background-color: #d9ab15;
 }
 
 .progress.is-info::-moz-progress-bar, .progress.elgg-button-special::-moz-progress-bar, .progress.elgg-state-notice::-moz-progress-bar {
-  background-color: #02a6f2;
+  background-color: #d9ab15;
 }
 
 .progress.is-success::-webkit-progress-value, .progress.elgg-state-success::-webkit-progress-value {
@@ -4511,7 +4511,7 @@ input.elgg-button[type="submit"] {
 }
 
 .table tr.is-selected, .elgg-table tr.is-selected, .elgg-table-alt tr.is-selected, .theme-sandbox-table tr.is-selected, .table tr.elgg-state-selected, .elgg-table tr.elgg-state-selected, .elgg-table-alt tr.elgg-state-selected, .theme-sandbox-table tr.elgg-state-selected {
-  background-color: #0398e2;
+  background-color: #f2be18;
   color: #fff;
 }
 
@@ -4639,12 +4639,12 @@ input.elgg-button[type="submit"] {
 }
 
 .tag.is-primary, .tag.elgg-button-action, .tag.elgg-button-submit {
-  background-color: #0398e2;
+  background-color: #f2be18;
   color: #fff;
 }
 
 .tag.is-info, .tag.elgg-button-special, .tag.elgg-state-notice {
-  background-color: #02a6f2;
+  background-color: #d9ab15;
   color: #fff;
 }
 
@@ -5188,7 +5188,7 @@ a.dropdown-item:hover {
 }
 
 a.dropdown-item.is-active, .elgg-tabs a.dropdown-item.elgg-state-selected {
-  background-color: #0398e2;
+  background-color: #f2be18;
   color: #fff;
 }
 
@@ -5392,11 +5392,11 @@ a.dropdown-item.is-active, .elgg-tabs a.dropdown-item.elgg-state-selected {
 
 .menu-list a:hover {
   background-color: whitesmoke;
-  color: #0398e2;
+  color: #f2be18;
 }
 
 .menu-list a.is-active, .menu-list .elgg-tabs a.elgg-state-selected, .elgg-tabs .menu-list a.elgg-state-selected {
-  background-color: #0398e2;
+  background-color: #f2be18;
   color: #fff;
 }
 
@@ -5492,12 +5492,12 @@ a.dropdown-item.is-active, .elgg-tabs a.dropdown-item.elgg-state-selected {
 }
 
 .message.is-primary .message-header, .message.elgg-button-action .message-header, .message.elgg-button-submit .message-header {
-  background-color: #0398e2;
+  background-color: #f2be18;
   color: #fff;
 }
 
 .message.is-primary .message-body, .message.elgg-button-action .message-body, .message.elgg-button-submit .message-body {
-  border-color: #0398e2;
+  border-color: #f2be18;
   color: #074869;
 }
 
@@ -5506,12 +5506,12 @@ a.dropdown-item.is-active, .elgg-tabs a.dropdown-item.elgg-state-selected {
 }
 
 .message.is-info .message-header, .message.elgg-button-special .message-header, .message.elgg-state-notice .message-header {
-  background-color: #02a6f2;
+  background-color: #d9ab15;
   color: #fff;
 }
 
 .message.is-info .message-body, .message.elgg-button-special .message-body, .message.elgg-state-notice .message-body {
-  border-color: #02a6f2;
+  border-color: #d9ab15;
   color: #074663;
 }
 
@@ -5838,7 +5838,7 @@ a.dropdown-item.is-active, .elgg-tabs a.dropdown-item.elgg-state-selected {
 }
 
 .nav-toggle.is-active span, .elgg-tabs .nav-toggle.elgg-state-selected span {
-  background-color: #0398e2;
+  background-color: #f2be18;
 }
 
 .nav-toggle.is-active span:nth-child(1), .elgg-tabs .nav-toggle.elgg-state-selected span:nth-child(1) {
@@ -5925,15 +5925,15 @@ a.nav-item:not(.button):not(.elgg-button).is-tab {
 
 .nav-item a:not(.button):not(.elgg-button).is-tab:hover,
 a.nav-item:not(.button):not(.elgg-button).is-tab:hover {
-  border-bottom-color: #0398e2;
+  border-bottom-color: #f2be18;
   border-top-color: transparent;
 }
 
 .nav-item a:not(.button):not(.elgg-button).is-tab.is-active, .nav-item .elgg-tabs a.elgg-state-selected:not(.button):not(.elgg-button).is-tab, .elgg-tabs .nav-item a.elgg-state-selected:not(.button):not(.elgg-button).is-tab,
 a.nav-item:not(.button):not(.elgg-button).is-tab.is-active,
 .elgg-tabs a.nav-item.elgg-state-selected:not(.button):not(.elgg-button).is-tab {
-  border-bottom: 3px solid #0398e2;
-  color: #0398e2;
+  border-bottom: 3px solid #f2be18;
+  color: #f2be18;
   padding-bottom: calc(0.75rem - 3px);
 }
 
@@ -6086,7 +6086,7 @@ a.nav-item:not(.button):not(.elgg-button).is-tab.is-active,
 }
 
 .navbar-burger.is-active span, .elgg-tabs .navbar-burger.elgg-state-selected span {
-  background-color: #0398e2;
+  background-color: #f2be18;
 }
 
 .navbar-burger.is-active span:nth-child(1), .elgg-tabs .navbar-burger.elgg-state-selected span:nth-child(1) {
@@ -6147,13 +6147,13 @@ a.navbar-item:hover, a.navbar-item.is-active, .elgg-tabs a.navbar-item.elgg-stat
 
 .navbar-item.is-tab:hover {
   background-color: transparent;
-  border-bottom-color: #0398e2;
+  border-bottom-color: #f2be18;
 }
 
 .navbar-item.is-tab.is-active, .elgg-tabs .navbar-item.is-tab.elgg-state-selected {
   background-color: transparent;
-  border-bottom: 3px solid #0398e2;
-  color: #0398e2;
+  border-bottom: 3px solid #f2be18;
+  color: #f2be18;
   padding-bottom: calc(0.5rem - 3px);
 }
 
@@ -6226,7 +6226,7 @@ a.navbar-item:hover, a.navbar-item.is-active, .elgg-tabs a.navbar-item.elgg-stat
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active, .navbar.is-transparent .navbar-dropdown .elgg-tabs a.navbar-item.elgg-state-selected, .elgg-tabs .navbar.is-transparent .navbar-dropdown a.navbar-item.elgg-state-selected {
     background-color: whitesmoke;
-    color: #0398e2;
+    color: #f2be18;
   }
   .navbar-burger {
     display: none;
@@ -6248,7 +6248,7 @@ a.navbar-item:hover, a.navbar-item.is-active, .elgg-tabs a.navbar-item.elgg-stat
     transform: translateY(0);
   }
   .navbar-link::after {
-    border: 1px solid #0398e2;
+    border: 1px solid #f2be18;
     border-right: 0;
     border-top: 0;
     content: " ";
@@ -6301,7 +6301,7 @@ a.navbar-item:hover, a.navbar-item.is-active, .elgg-tabs a.navbar-item.elgg-stat
   }
   .navbar-dropdown a.navbar-item.is-active, .navbar-dropdown .elgg-tabs a.navbar-item.elgg-state-selected, .elgg-tabs .navbar-dropdown a.navbar-item.elgg-state-selected {
     background-color: whitesmoke;
-    color: #0398e2;
+    color: #f2be18;
   }
   .navbar-dropdown.is-boxed {
     border-radius: 5px;
@@ -6442,7 +6442,7 @@ a.navbar-item:hover, a.navbar-item.is-active, .elgg-tabs a.navbar-item.elgg-stat
 .pagination-previous:focus,
 .pagination-next:focus,
 .pagination-link:focus {
-  border-color: #0398e2;
+  border-color: #f2be18;
 }
 
 .pagination-previous:active,
@@ -6471,8 +6471,8 @@ a.navbar-item:hover, a.navbar-item.is-active, .elgg-tabs a.navbar-item.elgg-stat
 }
 
 .pagination-link.is-current {
-  background-color: #0398e2;
-  border-color: #0398e2;
+  background-color: #f2be18;
+  border-color: #f2be18;
   color: #fff;
 }
 
@@ -6593,7 +6593,7 @@ a.navbar-item:hover, a.navbar-item.is-active, .elgg-tabs a.navbar-item.elgg-stat
 }
 
 .panel-list a:hover {
-  color: #0398e2;
+  color: #f2be18;
 }
 
 .panel-block {
@@ -6619,12 +6619,12 @@ a.navbar-item:hover, a.navbar-item.is-active, .elgg-tabs a.navbar-item.elgg-stat
 }
 
 .panel-block.is-active, .elgg-tabs .panel-block.elgg-state-selected {
-  border-left-color: #0398e2;
+  border-left-color: #f2be18;
   color: #363636;
 }
 
 .panel-block.is-active .panel-icon, .elgg-tabs .panel-block.elgg-state-selected .panel-icon {
-  color: #0398e2;
+  color: #f2be18;
 }
 
 a.panel-block,
@@ -6695,8 +6695,8 @@ label.panel-block:hover {
 }
 
 .tabs li.is-active a, .tabs .elgg-tabs li.elgg-state-selected a, .elgg-tabs .tabs li.elgg-state-selected a {
-  border-bottom-color: #0398e2;
-  color: #0398e2;
+  border-bottom-color: #f2be18;
+  color: #f2be18;
 }
 
 .tabs ul {
@@ -6786,8 +6786,8 @@ label.panel-block:hover {
 }
 
 .tabs.is-toggle li.is-active a, .tabs.is-toggle .elgg-tabs li.elgg-state-selected a, .elgg-tabs .tabs.is-toggle li.elgg-state-selected a {
-  background-color: #0398e2;
-  border-color: #0398e2;
+  background-color: #f2be18;
+  border-color: #f2be18;
   color: #fff;
   z-index: 1;
 }
@@ -8393,7 +8393,7 @@ label.panel-block:hover {
 }
 
 .hero.is-primary, .hero.elgg-button-action, .hero.elgg-button-submit {
-  background-color: #0398e2;
+  background-color: #f2be18;
   color: #fff;
 }
 
@@ -8425,7 +8425,7 @@ label.panel-block:hover {
 
 @media screen and (max-width: 768px) {
   .hero.is-primary .nav-menu, .hero.elgg-button-action .nav-menu, .hero.elgg-button-submit .nav-menu {
-    background-color: #0398e2;
+    background-color: #f2be18;
   }
 }
 
@@ -8476,16 +8476,16 @@ label.panel-block:hover {
 .hero.is-primary .tabs.is-boxed li.is-active a, .hero.elgg-button-action .tabs.is-boxed li.is-active a, .hero.elgg-button-submit .tabs.is-boxed li.is-active a, .hero.is-primary .tabs.is-boxed .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.is-primary .tabs.is-boxed li.elgg-state-selected a, .hero.elgg-button-action .tabs.is-boxed .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.elgg-button-action .tabs.is-boxed li.elgg-state-selected a, .hero.elgg-button-submit .tabs.is-boxed .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.elgg-button-submit .tabs.is-boxed li.elgg-state-selected a, .hero.is-primary .tabs.is-boxed li.is-active a:hover, .hero.elgg-button-action .tabs.is-boxed li.is-active a:hover, .hero.elgg-button-submit .tabs.is-boxed li.is-active a:hover, .hero.is-primary .tabs.is-boxed .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.is-primary .tabs.is-boxed li.elgg-state-selected a:hover, .hero.elgg-button-action .tabs.is-boxed .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.elgg-button-action .tabs.is-boxed li.elgg-state-selected a:hover, .hero.elgg-button-submit .tabs.is-boxed .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.elgg-button-submit .tabs.is-boxed li.elgg-state-selected a:hover, .hero.is-primary .tabs.is-toggle li.is-active a, .hero.elgg-button-action .tabs.is-toggle li.is-active a, .hero.elgg-button-submit .tabs.is-toggle li.is-active a, .hero.is-primary .tabs.is-toggle .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.is-primary .tabs.is-toggle li.elgg-state-selected a, .hero.elgg-button-action .tabs.is-toggle .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.elgg-button-action .tabs.is-toggle li.elgg-state-selected a, .hero.elgg-button-submit .tabs.is-toggle .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.elgg-button-submit .tabs.is-toggle li.elgg-state-selected a, .hero.is-primary .tabs.is-toggle li.is-active a:hover, .hero.elgg-button-action .tabs.is-toggle li.is-active a:hover, .hero.elgg-button-submit .tabs.is-toggle li.is-active a:hover, .hero.is-primary .tabs.is-toggle .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.is-primary .tabs.is-toggle li.elgg-state-selected a:hover, .hero.elgg-button-action .tabs.is-toggle .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.elgg-button-action .tabs.is-toggle li.elgg-state-selected a:hover, .hero.elgg-button-submit .tabs.is-toggle .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.elgg-button-submit .tabs.is-toggle li.elgg-state-selected a:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #0398e2;
+  color: #f2be18;
 }
 
 .hero.is-primary.is-bold, .hero.is-bold.elgg-button-action, .hero.is-bold.elgg-button-submit {
-  background-image: linear-gradient(141deg, #0095b3 0%, #0398e2 71%, #0080ff 100%);
+  background-image: linear-gradient(141deg, #0095b3 0%, #f2be18 71%, #0080ff 100%);
 }
 
 @media screen and (max-width: 768px) {
   .hero.is-primary.is-bold .nav-menu, .hero.is-bold.elgg-button-action .nav-menu, .hero.is-bold.elgg-button-submit .nav-menu {
-    background-image: linear-gradient(141deg, #0095b3 0%, #0398e2 71%, #0080ff 100%);
+    background-image: linear-gradient(141deg, #0095b3 0%, #f2be18 71%, #0080ff 100%);
   }
 }
 
@@ -8505,7 +8505,7 @@ label.panel-block:hover {
 }
 
 .hero.is-info, .hero.elgg-button-special, .hero.elgg-state-notice {
-  background-color: #02a6f2;
+  background-color: #d9ab15;
   color: #fff;
 }
 
@@ -8537,7 +8537,7 @@ label.panel-block:hover {
 
 @media screen and (max-width: 768px) {
   .hero.is-info .nav-menu, .hero.elgg-button-special .nav-menu, .hero.elgg-state-notice .nav-menu {
-    background-color: #02a6f2;
+    background-color: #d9ab15;
   }
 }
 
@@ -8588,16 +8588,16 @@ label.panel-block:hover {
 .hero.is-info .tabs.is-boxed li.is-active a, .hero.elgg-button-special .tabs.is-boxed li.is-active a, .hero.elgg-state-notice .tabs.is-boxed li.is-active a, .hero.is-info .tabs.is-boxed .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.is-info .tabs.is-boxed li.elgg-state-selected a, .hero.elgg-button-special .tabs.is-boxed .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.elgg-button-special .tabs.is-boxed li.elgg-state-selected a, .hero.elgg-state-notice .tabs.is-boxed .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.elgg-state-notice .tabs.is-boxed li.elgg-state-selected a, .hero.is-info .tabs.is-boxed li.is-active a:hover, .hero.elgg-button-special .tabs.is-boxed li.is-active a:hover, .hero.elgg-state-notice .tabs.is-boxed li.is-active a:hover, .hero.is-info .tabs.is-boxed .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.is-info .tabs.is-boxed li.elgg-state-selected a:hover, .hero.elgg-button-special .tabs.is-boxed .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.elgg-button-special .tabs.is-boxed li.elgg-state-selected a:hover, .hero.elgg-state-notice .tabs.is-boxed .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.elgg-state-notice .tabs.is-boxed li.elgg-state-selected a:hover, .hero.is-info .tabs.is-toggle li.is-active a, .hero.elgg-button-special .tabs.is-toggle li.is-active a, .hero.elgg-state-notice .tabs.is-toggle li.is-active a, .hero.is-info .tabs.is-toggle .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.is-info .tabs.is-toggle li.elgg-state-selected a, .hero.elgg-button-special .tabs.is-toggle .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.elgg-button-special .tabs.is-toggle li.elgg-state-selected a, .hero.elgg-state-notice .tabs.is-toggle .elgg-tabs li.elgg-state-selected a, .elgg-tabs .hero.elgg-state-notice .tabs.is-toggle li.elgg-state-selected a, .hero.is-info .tabs.is-toggle li.is-active a:hover, .hero.elgg-button-special .tabs.is-toggle li.is-active a:hover, .hero.elgg-state-notice .tabs.is-toggle li.is-active a:hover, .hero.is-info .tabs.is-toggle .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.is-info .tabs.is-toggle li.elgg-state-selected a:hover, .hero.elgg-button-special .tabs.is-toggle .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.elgg-button-special .tabs.is-toggle li.elgg-state-selected a:hover, .hero.elgg-state-notice .tabs.is-toggle .elgg-tabs li.elgg-state-selected a:hover, .elgg-tabs .hero.elgg-state-notice .tabs.is-toggle li.elgg-state-selected a:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #02a6f2;
+  color: #d9ab15;
 }
 
 .hero.is-info.is-bold, .hero.is-bold.elgg-button-special, .hero.is-bold.elgg-state-notice {
-  background-image: linear-gradient(141deg, #00a5c2 0%, #02a6f2 71%, #0f8bff 100%);
+  background-image: linear-gradient(141deg, #00a5c2 0%, #d9ab15 71%, #0f8bff 100%);
 }
 
 @media screen and (max-width: 768px) {
   .hero.is-info.is-bold .nav-menu, .hero.is-bold.elgg-button-special .nav-menu, .hero.is-bold.elgg-state-notice .nav-menu {
-    background-image: linear-gradient(141deg, #00a5c2 0%, #02a6f2 71%, #0f8bff 100%);
+    background-image: linear-gradient(141deg, #00a5c2 0%, #d9ab15 71%, #0f8bff 100%);
   }
 }
 
@@ -9300,7 +9300,7 @@ label.panel-block:hover {
 
 .elgg-pagination > li > a:focus,
 .elgg-pagination > li > span:focus {
-  border-color: #0398e2;
+  border-color: #f2be18;
 }
 
 .elgg-pagination > li > a:active,
@@ -9319,8 +9319,8 @@ label.panel-block:hover {
 
 .elgg-pagination > li.elgg-state-selected > a,
 .elgg-pagination > li.elgg-state-selected > span {
-  background-color: #0398e2;
-  border-color: #0398e2;
+  background-color: #f2be18;
+  border-color: #f2be18;
   color: #fff;
 }
 
@@ -9560,7 +9560,7 @@ label.panel-block:hover {
     display: none;
     position: absolute;
     top: 3.25rem;
-    background: #0398e2;
+    background: #f2be18;
     width: 200px;
     left: 50%;
     transform: translate(-50%, 0);
@@ -9683,7 +9683,7 @@ label.panel-block:hover {
 
 .elgg-menu-user-hover-actions a,
 .elgg-menu-page-actions a {
-  color: #0398e2;
+  color: #f2be18;
   font-weight: 600;
 }
 
@@ -9700,7 +9700,7 @@ label.panel-block:hover {
 }
 
 .elgg-menu-page .elgg-menu-parent:after {
-  border: 1px solid #0398e2;
+  border: 1px solid #f2be18;
   border-right: 0;
   border-top: 0;
   content: " ";
@@ -9829,7 +9829,7 @@ fieldset {
 }
 
 .elgg-icon-hover {
-  color: #02a6f2;
+  color: #d9ab15;
 }
 
 .elgg-ajax-loader {
@@ -9955,13 +9955,13 @@ fieldset {
 }
 
 .elgg-module-featured {
-  border: 1px solid #0398e2;
+  border: 1px solid #f2be18;
   border-radius: 2px;
 }
 
 .elgg-module-featured > .elgg-head {
   padding: 0.5em 1em;
-  background-color: #0398e2;
+  background-color: #f2be18;
   color: #fff;
 }
 
@@ -9987,7 +9987,7 @@ fieldset {
 }
 
 .elgg-widget-placeholder {
-  border: 2px dashed #0398e2;
+  border: 2px dashed #f2be18;
   margin-bottom: 15px;
   border-radius: 5px;
 }
@@ -10030,8 +10030,8 @@ fieldset {
 }
 
 .elgg-widgets-add-panel-list > li.elgg-state-available:hover span {
-  color: #0398e2;
-  border-color: #0398e2;
+  color: #f2be18;
+  border-color: #f2be18;
   backaground: #fff;
 }
 
@@ -10201,12 +10201,12 @@ fieldset {
 .ui-datepicker-calendar .ui-state-hover,
 .ui-datepicker-calendar .ui-state-active,
 .ui-datepicker-calendar .ui-state-active.ui-state-hover {
-  border: 1px solid #0398e2;
+  border: 1px solid #f2be18;
   -moz-box-shadow: 0 0 0 0px #ccc inset;
   -webkit-box-shadow: 0 0 0 0px #ccc inset;
   box-shadow: 0 0 0 0px #ccc inset;
   font-weight: normal;
-  color: #0398e2;
+  color: #f2be18;
   background: whitesmoke;
 }
 

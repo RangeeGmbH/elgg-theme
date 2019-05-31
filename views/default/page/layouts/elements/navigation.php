@@ -4,7 +4,7 @@
  * Page layout navigation
  */
 
-if (!elgg_get_plugin_setting('breadcrumbs', 'hypeUI', false)) {
+if (!elgg_get_plugin_setting('breadcrumbs', 'rangee_theme', false)) {
 	return;
 }
 

@@ -34,7 +34,7 @@ if ($cover_url) {
 	$attrs['class'][] = 'is-dark';
 	$attrs['class'][] = 'has-cover';
 } else {
-	$style = elgg_get_plugin_setting('style:header', 'hypeUI', 'light');
+	$style = elgg_get_plugin_setting('style:header', 'rangee_theme', 'light');
 	$attrs['class'][] = "is-$style";
 }
 
