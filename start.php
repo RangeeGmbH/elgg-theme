@@ -33,6 +33,7 @@ elgg_register_event_handler('init', 'system', function () {
 	elgg_unregister_plugin_hook_handler('register', 'menu:login', '_elgg_login_menu_setup');
 
 	elgg_extend_view('elgg.css', 'bulma.css', 1);
+	elgg_extend_view('elgg.css', 'rangee.css', 1);
 	elgg_extend_view('admin.css', 'bulma.css', 1);
 	elgg_extend_view('elgg.js', 'page/elements/topbar.js');
 
