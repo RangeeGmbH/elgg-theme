@@ -101,6 +101,13 @@ function hypeapps_ui_get_entity_handler(ElggEntity $entity) {
                 $map['object']['event_calendar'] = 'event_calendar';
                 elgg_load_library('elgg:event_calendar');
         }
+        if (elgg_is_active_plugin('forum')) {
+                $map['object']['forumcategory'] = 'forumcategory';
+                $map['object']['forum'] = 'forum';
+                $map['object']['forumtopic'] = 'forumtopic';
+                $map['object']['forumreply'] = 'forumreply';
+                elgg_load_library('forum_page_handlers');
+        }
 
 	$handler = elgg_extract($entity->getSubtype() ?: 'default', $map[$entity->type]);
 
