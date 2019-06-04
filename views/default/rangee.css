@@ -1,17 +1,4 @@
 /* rangee.css */
-/*
-.elgg-image + .media-content .elgg-image {
-    display: none;
-}
-
-.inbox-message-icon + .inbox-message-content .elgg-image {
-    display: none;
-}
-
-a.elgg-anchor.elgg-button.elgg-button-delete.float-alt {
-    z-index: 1;
-}
-*/
 
 div.elgg-head > h3 span.elgg-anchor-label {
     color: #000000;
@@ -20,4 +7,18 @@ div.elgg-head > h3 span.elgg-anchor-label {
 div.elgg-head > h3 span.elgg-anchor-label:hover,
 div.elgg-head > h3 span.elgg-anchor-label:focus {
     color: #ffffff;
+}
+
+.elgg-forum-author-box {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.elgg-forum-latest-reply, .elgg-forum-latest-topic {
+    width: 250px;
+    margin-right: 50px;
+}
+
+.elgg-forum-narrow-column {
+    width: 1%;
 }

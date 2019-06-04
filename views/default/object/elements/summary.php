@@ -117,16 +117,6 @@ $icon = elgg_extract('icon', $vars);
 if (empty($icon) && $icon !== false && $entity instanceof ElggEntity) {
 	if ($entity instanceof ElggUser || $entity instanceof ElggGroup) {
 		$vars['icon'] = elgg_view_entity_icon($entity, 'small');
-	} else {
-		if ($owner) {
-			$vars['icon'] = elgg_view_entity_icon($owner, 'small');
-		}
-		if (empty($media) && $media !== false) {
-			if ($entity->hasIcon('small')) {
-				$size = $entity instanceof ElggFile ? 'small' : 'medium';
-				$vars['media'] = elgg_view_entity_icon($entity, $size);
-			}
-		}
 	}
 }
 

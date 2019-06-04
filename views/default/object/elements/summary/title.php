@@ -12,4 +12,4 @@ if (!$title) {
 	return;
 }
 ?>
-<h3 class="elgg-listing-summary-title title is-3 is-spaced"><?= $title ?></h3>
+<h4 class="elgg-listing-summary-title title is-4 is-spaced"><?= $title ?></h4>
