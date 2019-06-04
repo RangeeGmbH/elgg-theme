@@ -19,6 +19,38 @@ div.elgg-head > h3 span.elgg-anchor-label:focus {
     margin-right: 50px;
 }
 
+.elgg-forum-latest-reply .elgg-forum-latest-topic .title .elgg-anchor, .elgg-forum-latest-topic .title .elgg-anchor {
+    display: block;
+    max-width: calc(100% - 30px);
+}
+
 .elgg-forum-narrow-column {
     width: 1%;
+}
+
+.elgg-module > .elgg-head > h3 > .elgg-anchor + .elgg-object-menu {
+    display: inline;
+    position: relative;
+    left: 0.5em;
+    bottom: 0.1em;
+}
+
+.elgg-sidebar .title .elgg-anchor {
+    display: block;
+    max-width: calc(100% - 30px);
+}
+
+.hero-body {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 1.5rem 1.5rem;
+}
+
+.elgg-layout-navigation {
+    margin-top: -1.8em;
+    margin-bottom: 0.2em;
+}
+
+.footer {
+    padding: 1rem 1.5rem 2.5rem;
 }
