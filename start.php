@@ -36,6 +36,7 @@ elgg_register_event_handler('init', 'system', function () {
 	elgg_extend_view('elgg.css', 'rangee.css', 1);
 	elgg_extend_view('admin.css', 'bulma.css', 1);
 	elgg_extend_view('elgg.js', 'page/elements/topbar.js');
+  elgg_extend_view('js/elgg', 'event_manager.js');
 
 	elgg_unextend_view('page/elements/header', 'search/header');
 
