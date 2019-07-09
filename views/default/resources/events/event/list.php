@@ -30,11 +30,12 @@ $form = elgg_view_form('event_manager/event/search', [
 ]);
 
 $menu = elgg_view_menu('events_list', ['class' => 'elgg-tabs', 'sort_by' => 'register']);
-
-$body = elgg_view_layout('content', [
+$filter = elgg_view_menu('filter', ['class' => 'elgg-tabs', 'sort_by' => 'register']);
+$body = elgg_view_layout('default', [
 	'filter' => $menu,
-	'content' => $form . '<br>' .$content,
-	'title' => $title_text,
+	'content' => $form .'<br>' . $content,
+	'title' => 'Events',
+	'hero_menu' => $filter,
 ]);
 
 echo elgg_view_page($title_text, $body);
