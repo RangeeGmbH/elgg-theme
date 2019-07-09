@@ -80,9 +80,7 @@ if ($full) {
 	echo elgg_view('object/elements/full', $vars);
 } else {
 	$vars['content'] = false;
-	$vars['inline_content'] = elgg_get_excerpt($entity->description, 100);
-
-	$listing = elgg_view('object/elements/summary', $vars);
+  $listing = $vars["summary_only"] ? elgg_view('object/elements/summary', $vars) : elgg_view('object/elements/full', $vars);
 	if ($bulk_actions) {
 		$checkbox = elgg_view('input/checkbox', [
 			'name' => 'message_id[]',
