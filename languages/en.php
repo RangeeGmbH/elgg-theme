@@ -7,9 +7,11 @@ return [
 	'menu:page:header:user' => 'User Links',
 	'menu:page:header:group' => 'Group Links',
 	'menu:page:header:danger' => 'Danger Zone',
-	'menu:page:header:notications' => 'Notifications',
+	'menu:page:header:notifications' => 'Notifications',
 	'menu:page:header:1_profile' => 'Profile',
 	'menu:page:header:extras' => 'Extras',
+  'menu:page:header:alt' => 'Alt',
+
 
 	'object:menu:no_results' => 'This item has no additional options',
 
