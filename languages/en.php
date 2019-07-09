@@ -56,4 +56,5 @@ return [
 
 	'hero:register' => 'Join Our Community!',
 	'core:account:help:register' => 'Not a member yet? %s',
+  'event_manager:owner:created' => 'Created',
 ];

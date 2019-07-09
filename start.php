@@ -64,6 +64,10 @@ elgg_register_event_handler('init', 'system', function () {
 
 	elgg_register_action('theme/assets', __DIR__ . '/actions/theme/assets.php', 'admin');
 	elgg_register_action('theme/layout', __DIR__ . '/actions/theme/layout.php', 'admin');
+
+	elgg_register_plugin_hook_handler('register', 'menu:interactions', 'reply_menu_edit');
+	elgg_register_plugin_hook_handler('register', 'menu:events_list', 'events_list_menu_edit');
+	elgg_register_plugin_hook_handler('register', 'menu:filter', 'filter_menu_edit');
 });
 
 /**
@@ -116,4 +120,45 @@ function hypeapps_ui_get_entity_handler(ElggEntity $entity) {
 	$params = ['entity' => $entity];
 
 	return elgg_trigger_plugin_hook('entity:handler', $entity->type, $params, $handler);
+}
+
+function reply_menu_edit($hook, $type, $return, $params) {
+    $return = array_filter($return, function ($item) {
+        return $item->getName() !== 'comments';
+    });
+    return $return;
+}
+
+function events_list_menu_edit($hook, $type, $return, $params) {
+    $return = array_filter($return, function ($item) {
+        return $item->getName() !== 'attending';
+    });
+    return $return;
+}
+
+function filter_menu_edit($hook, $type, $return, $params) {
+    if (!elgg_in_context('events')) {
+        return;
+    }
+
+    $returnvalue = [];
+
+    $returnvalue[] = \ElggMenuItem::factory([
+        'name' => 'all',
+        'text' => elgg_echo('all'),
+        'href' => 'events',
+    ]);
+    $returnvalue[] = \ElggMenuItem::factory([
+        'name' => 'mine',
+        'text' => elgg_echo('event_manager:owner:created'),
+        'href' => 'events/owner/' . (elgg_get_page_owner_entity() ? elgg_get_page_owner_entity() : elgg_get_logged_in_user_entity())->username,
+    ]);
+
+    $returnvalue[] = \ElggMenuItem::factory([
+        'name' => 'attending',
+        'text' => elgg_echo('event_manager:menu:attending'),
+        'href' => 'events/attending/' . (elgg_get_page_owner_entity() ? elgg_get_page_owner_entity() : elgg_get_logged_in_user_entity())->username,
+    ]);
+
+    return $returnvalue;
 }
