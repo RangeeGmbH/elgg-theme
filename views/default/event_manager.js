@@ -1,5 +1,11 @@
 elgg.event_manager.activate_menu_tab = function(selected) {
-    var selected_element = $(`.elgg-layout-filter .nav-left a[rel=${selected}]`);
+    if(selected.startsWith("events_"))
+        selected = selected.substr(7);
+
+    if(selected === "map")
+        selected = "onthemap";
+    var selected_element = $(`.elgg-layout-filter .container .nav-left a[rel=${selected}]`);
+
     if (selected_element.hasClass('is-active'))
         return;
 
@@ -14,7 +20,7 @@ elgg.event_manager.activate_menu_tab = function(selected) {
 
     $('#search_type').val(selected);
 
-    if (selected == 'events_map') {
+    if (selected == 'onthemap') {
         $('#event_manager_event_map').show();
         if (typeof elgg.event_manager.map === 'undefined') {
             require(['elgg/spinner'], function(spinner) {
@@ -28,10 +34,10 @@ elgg.event_manager.activate_menu_tab = function(selected) {
         } else {
             elgg.event_manager.execute_search_map();
         }
-    } else if (selected == 'events_list') {
+    } else if (selected == 'list') {
         $('#event_manager_event_listing').show();
         elgg.event_manager.execute_search_list();
-    } else if (selected == 'events_calendar') {
+    } else if (selected == 'calendar') {
         $('#event-manager-event-calendar').show();
 
         require(['elgg/spinner'], function(spinner) {
