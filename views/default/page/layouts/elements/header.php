@@ -39,6 +39,7 @@ if ($cover_url) {
 }
 
 $attrs = elgg_format_attributes($attrs);
+$hero_menu = elgg_extract('hero_menu', $vars, false);
 ?>
 <div <?= $attrs ?>>
 	<?= $cover ?>
@@ -50,6 +51,12 @@ $attrs = elgg_format_attributes($attrs);
         </div>
     </div>
     <div class="hero-foot">
-		<?= elgg_view('page/layouts/elements/owner_block', $vars) ?>
+        <?php if($hero_menu) { ?>
+            <div class="elgg-inner container">
+                <div class="nav-left">
+                    <?= $hero_menu ?>
+                </div>
+            </div>
+        <?php } ?>
     </div>
 </div>
