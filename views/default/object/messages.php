@@ -98,4 +98,5 @@ if ($full) {
         </div>
 		<?php
 	}
+	echo $listing;
 }
