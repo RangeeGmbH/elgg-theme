@@ -48,13 +48,20 @@ if ($entity->toId == elgg_get_page_owner_guid()) {
 			'is_trusted' => true,
 		]);
 	} else {
-		$icon = '';
-		$user_link = elgg_echo('messages:deleted_sender');
+    $user_link = elgg_echo('messages:deleted_sender');
 	}
 
 	$class[] = 'is-read';
 }
-
+if(!$icon)
+    $icon = elgg_view("icon/user/default", [
+        'size' => 'small',
+        'src' => elgg_get_simplecache_url("icons/user/defaultsmall.gif"),
+        'alt' => '',
+        'title' => '',
+        'name' => '',
+        'href' => false,
+    ]);
 $vars['class'] = $class;
 $vars['icon'] = $icon;
 $vars['byline'] = $user_link;
