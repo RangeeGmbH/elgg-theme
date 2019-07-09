@@ -13,6 +13,10 @@
  * @uses $vars['img_class']  Optional CSS class added to img
  * @uses $vars['link_class'] Optional CSS class for the link
  * @uses $vars['href']       Optional override of the link href
+ * @uses $vars['src']        Optional override of the src
+ * @uses $vars['alt']        Optional override of the alt
+ * @uses $vars['title']      Optional override of the title
+ * @uses $vars['name']       Optional override of the name
  */
 
 $user = elgg_extract('entity', $vars, elgg_get_logged_in_user_entity());
@@ -48,15 +52,11 @@ if ($tooltip) {
 
 $use_link = elgg_extract('use_link', $vars, true);
 
-$img_class = '';
-if (isset($vars['img_class'])) {
-	$img_class = $vars['img_class'];
-}
-
+$img_class = elgg_extract('img_class', $vars, '');
 $icon = elgg_view('output/img', [
-	'src' => $user->getIconURL($size),
-	'alt' => $name,
-	'title' => $name,
+	'src' => elgg_extract('src', $vars, $user->getIconURL($size)),
+	'alt' => elgg_extract('alt', $vars, $name),
+	'title' => elgg_extract('title', $vars, $name),
 	'class' => $img_class,
 ]);
 
@@ -75,5 +75,5 @@ if ($use_link) {
 
 echo elgg_format_element('div', [
 	'class' => $class,
-	'title' => $name,
+	'title' => elgg_extract('name', $vars, $name),
 ], $link);
