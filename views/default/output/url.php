@@ -15,7 +15,6 @@
  *                                   Note that if 'confirm' is set to true or a dialog text,
  *                                   'is_action' parameter will default to true
  * @uses string $vars['icon']        Name of the Elgg icon, or icon HTML, appended before the text label
- * @uses string $vars['badge']       HTML content of the badge appended after the text label
  * @uses int    $vars['excerpt_length'] Length of the URL excerpt if text is not given.
  */
 
@@ -104,15 +103,4 @@ if ($icon && !preg_match('/^</', $icon)) {
 	]);
 }
 
-$badge = elgg_extract('badge', $vars);
-unset($vars['badge']);
-
-if (!is_null($badge)) {
-	$badge = elgg_format_element([
-		'#tag_name' => 'span',
-		'#text' => $badge,
-		'class' => 'elgg-badge',
-	]);
-}
-
-echo elgg_format_element('a', $vars, $icon . $text . $badge);
+echo elgg_format_element('a', $vars, $icon . $text);
