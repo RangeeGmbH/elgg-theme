@@ -54,3 +54,7 @@ div.elgg-head > h3 span.elgg-anchor-label:focus {
 .footer {
     padding: 1rem 1.5rem 2.5rem;
 }
+
+#inbox-popup .elgg-item.elgg-item-object.elgg-item-object-messages .elgg-listing-summary-header {
+    padding: 15px;
+}
