@@ -68,6 +68,9 @@ elgg_register_event_handler('init', 'system', function () {
 	elgg_register_plugin_hook_handler('register', 'menu:interactions', 'reply_menu_edit');
 	elgg_register_plugin_hook_handler('register', 'menu:events_list', 'events_list_menu_edit');
 	elgg_register_plugin_hook_handler('register', 'menu:filter', 'filter_menu_edit');
+
+  elgg_unregister_action('profile/edit');
+  elgg_register_action("profile/edit", elgg_get_plugins_path()."/rangee_theme/actions/profile/edit.php");
 });
 
 /**
